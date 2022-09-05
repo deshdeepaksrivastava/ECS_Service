@@ -1,15 +1,6 @@
-# cpu_size, memory_size,
-# , 1024, 1024
 from time import sleep
 import boto3
 import json
-
-
-client = boto3.client("ecs", region_name="ap-south-1")
-aws_account_id = 886125330179
-repo_name = "newrepo"
-repo_tag = "latest"
-
 
 class ECS():
     def create_cluster(self, clusterName):
