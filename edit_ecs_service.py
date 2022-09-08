@@ -1,6 +1,5 @@
 from time import sleep
 import boto3
-import json
 
 class ECS():
     def create_cluster(self, clusterName):
